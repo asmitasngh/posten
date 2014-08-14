@@ -1,0 +1,37 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @competition.category %>
+</p>
+
+<p>
+  <strong>Rounds:</strong>
+  <%= @competition.rounds %>
+</p>
+
+<p>
+  <strong>Levels:</strong>
+  <%= @competition.levels %>
+</p>
+
+<p>
+  <strong>No of teams:</strong>
+  <%= @competition.no_of_teams %>
+</p>
+
+<ol>
+<% for team in @competition.teams %>
+  <li>
+    <%=h team.content %>
+  </li>
+<% end %>
+</ol>
+
+
+
+
+
+
+<%= link_to 'Edit', edit_competition_path(@competition) %> |
+<%= link_to 'Back', competitions_path %>

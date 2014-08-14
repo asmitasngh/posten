@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  category: MyString
+  rounds: MyString
+  levels: MyString
+  no_of_teams: 1
+
+two:
+  category: MyString
+  rounds: MyString
+  levels: MyString
+  no_of_teams: 1

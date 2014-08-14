@@ -1,0 +1,28 @@
+<script>
+$(function() {
+	$( "#accordion" ).accordion({
+		collapsible: true,
+			heightStyle: "content"
+	});
+});
+</script>
+
+
+<div id='wel'><h2 align='center' style="color:#2781BA">Welcome to the Application!</h2><hr id='welcome'/></div>
+<div class='leftnav'>
+<ul>
+</ul>
+</div>
+<div class = 'rightnav'>
+<div class='main'>
+	<p id="notice"><%= notice %></p>
+<div id='accordion'>
+	
+		<% end %>		
+	<% end %>
+</div>
+
+	<br />
+	<%= link_to 'New User', new_user_path %>
+</div>
+</div>
